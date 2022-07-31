@@ -1,68 +1,29 @@
-Code for The Annotated Transformer blog post:
+# 项目介绍
 
-http://nlp.seas.harvard.edu/annotated-transformer/
+本项目是个人学习Transformer时的一些学习笔记和博客的汇总。目前内容有：
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/harvardnlp/annotated-transformer/blob/master/AnnotatedTransformer.ipynb)
+1. `AnnotatedTransformer.ipynb`：万字逐行解析与实现Transformer，并进行德译英实战
+2. `nn.Transformer_demo.ipynb`: Pytorch中 nn.Transformer的使用详解与Transformer的黑盒讲解
+3. `attention_tutorial.md`：层层剖析，让你彻底搞懂Self-Attention、MultiHead-Attention和Masked-Attention的机制和原理
 
-![image](https://user-images.githubusercontent.com/35882/166251887-9da909a9-660b-45a9-ae72-0aae89fb38d4.png)
+如有错误的地方，欢迎指出。
 
-
-
-
-# Package Dependencies
-
-Use `requirements.txt` to install library dependencies with pip:
-
-```
-pip install -r requirements.txt
-```
+我的博客地址为：https://blog.csdn.net/zhaohongfei_358
 
 
-# Notebook Setup
 
-The Annotated Transformer is created using [jupytext](https://github.com/mwouts/jupytext).
+# Transformer源码解读
 
-Regular notebooks pose problems for source control - cell outputs end up in the repo history and diffs between commits are difficult to examine. Using jupytext, there is a python script (`.py` file) that is automatically kept in sync with the notebook file by the jupytext plugin.
+`AnnotatedTransformer.ipynb` 文件是对Transformer源码的一些解释和注释扩展。源码来源于项目[harvardnlp/annotated-transformer](https://github.com/harvardnlp/annotated-transformer) 。 并在该项目的基础上删除了一些增加了许多详细的注释，并且删除了一些与理解Transformer无关的代码（例如并行计算）。
 
-The python script is committed contains all the cell content and can be used to generate the notebook file. The python script is a regular python source file, markdown sections are included using a standard comment convention, and outputs are not saved. The notebook itself is treated as a build artifact and is not commited to the git repository.
+本篇博客为：https://blog.csdn.net/zhaohongfei_358/article/details/126085246
 
-Prior to using this repo, make sure jupytext is installed by following the [installation instructions here](https://github.com/mwouts/jupytext/blob/main/docs/install.md).
+# Pytorch中 nn.Transformer的使用详解与Transformer的黑盒讲解
 
-To produce the `.ipynb` notebook file using the markdown source, run (under the hood, the `notebook` build target simply runs `jupytext --to ipynb the_annotated_transformer.py`):
+`nn.Transformer_demo.ipynb` 文件详细讲解了Pytorch中nn.Transformer的使用，并从黑盒角度讲解了Transformer的使用
 
-```
-make notebook
-```
+本篇博客为：https://blog.csdn.net/zhaohongfei_358/article/details/126019181
 
-To produce the html version of the notebook, run:
+# 层层剖析，让你彻底搞懂Self-Attention、MultiHead-Attention和Masked-Attention的机制和原理
 
-```
-make html
-```
-
-`make html` is just a shortcut for for generating the notebook with `jupytext --to ipynb the_annotated_transformer.py` followed by using the jupyter nbconvert command to produce html using `jupyter nbconvert --to html the_annotated_transformer.ipynb`                             
- 
-
-# Formatting and Linting
-
-To keep the code formatting clean, the annotated transformer git repo has a git action to check that the code conforms to [PEP8 coding standards](https://www.python.org/dev/peps/pep-0008/).
-
-To make this easier, there are two `Makefile` build targets to run automatic code formatting with black and flake8.
-
-Be sure to [install black](https://github.com/psf/black#installation) and [flake8](https://flake8.pycqa.org/en/latest/).
-
-You can then run:
-
-```
-make black
-```
-
-(or alternatively manually call black `black --line-length 79 the_annotated_transformer.py`) to format code automatically using black and:
-
-```
-make flake
-```
-
-(or manually call flake8 `flake8 --show-source the_annotated_transformer.py) to check for PEP8 violations.
-
-It's recommended to run these two commands and fix any flake8 errors that arise, when submitting a PR, otherwise the github actions CI will report an error.
+博客地址为：https://blog.csdn.net/zhaohongfei_358/article/details/122861751
