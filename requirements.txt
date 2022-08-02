@@ -8,6 +8,7 @@ spacy==3.2
 altair==4.1
 jupytext==1.13
 tokenizers==0.12.1
+tensorboard
 flake8
 black
 GPUtil
