@@ -5,6 +5,7 @@
 1. `AnnotatedTransformer.ipynb`：万字逐行解析与实现Transformer，并进行德译英实战
 2. `nn.Transformer_demo.ipynb`: Pytorch中 nn.Transformer的使用详解与Transformer的黑盒讲解
 3. `attention_tutorial.md`：层层剖析，让你彻底搞懂Self-Attention、MultiHead-Attention和Masked-Attention的机制和原理
+4. `en_to_zh_demo.ipynb`：Pytorch实战：基于nn.Transformer实现机器翻译（英译汉）
 
 如有错误的地方，欢迎指出。
 
@@ -27,3 +28,7 @@
 # 层层剖析，让你彻底搞懂Self-Attention、MultiHead-Attention和Masked-Attention的机制和原理
 
 博客地址为：https://blog.csdn.net/zhaohongfei_358/article/details/122861751
+
+# Pytorch实战：基于nn.Transformer实现机器翻译（英译汉）
+
+博客地址：https://blog.csdn.net/zhaohongfei_358/article/details/126175328
