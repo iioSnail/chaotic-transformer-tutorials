@@ -9,6 +9,7 @@ altair==4.1
 jupytext==1.13
 tokenizers==0.12.1
 transformers==4.21
+datasets==2.4
 tensorboard
 flake8
 black
