@@ -16,11 +16,15 @@
 
 # Transformer源码解读
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iioSnail/chaotic-transformer-tutorials/blob/master/AnnotatedTransformer.ipynb)
+
 `AnnotatedTransformer.ipynb` 文件是对Transformer源码的一些解释和注释扩展。源码来源于项目[harvardnlp/annotated-transformer](https://github.com/harvardnlp/annotated-transformer) 。 并在该项目的基础上删除了一些增加了许多详细的注释，并且删除了一些与理解Transformer无关的代码（例如并行计算）。
 
 本篇博客为：https://blog.csdn.net/zhaohongfei_358/article/details/126085246
 
 # Pytorch中 nn.Transformer的使用详解与Transformer的黑盒讲解
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iioSnail/chaotic-transformer-tutorials/blob/master/nn.Transformer_demo.ipynb)
 
 `nn.Transformer_demo.ipynb` 文件详细讲解了Pytorch中nn.Transformer的使用，并从黑盒角度讲解了Transformer的使用
 
@@ -31,6 +35,8 @@
 博客地址为：https://blog.csdn.net/zhaohongfei_358/article/details/122861751
 
 # Pytorch实战：基于nn.Transformer实现机器翻译（英译汉）
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iioSnail/chaotic-transformer-tutorials/blob/master/en_to_zh_demo.ipynb)
 
 博客地址：https://blog.csdn.net/zhaohongfei_358/article/details/126175328
 
