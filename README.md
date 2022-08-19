@@ -7,6 +7,7 @@
 3. `attention_tutorial.md`：层层剖析，让你彻底搞懂Self-Attention、MultiHead-Attention和Masked-Attention的机制和原理
 4. `en_to_zh_demo.ipynb`：Pytorch实战：基于nn.Transformer实现机器翻译（英译汉）
 5. `Hugging Face快速入门`：讲解了Hugging Face模型和数据集两个重要部分的使用方法
+6. `bert_classification_demo.ipynb`：Pytorch实战：基于BERT实现文本隐喻分类（Kaggle入门题目）
 
 如有错误的地方，欢迎指出。
 
@@ -43,3 +44,11 @@
 # Hugging Face快速入门
 
 博客地址:https://blog.csdn.net/zhaohongfei_358/article/details/126224199
+
+# Pytorch实战：基于BERT实现文本隐喻分类（Kaggle入门题目）
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iioSnail/chaotic-transformer-tutorials/blob/master/bert_classification_demo.ipynb)
+
+使用Bert做一个简单的二分类问题。
+
+博客地址：https://blog.csdn.net/zhaohongfei_358/article/details/126426855
