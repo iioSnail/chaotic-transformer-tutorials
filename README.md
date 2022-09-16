@@ -8,6 +8,7 @@
 4. `en_to_zh_demo.ipynb`：Pytorch实战：基于nn.Transformer实现机器翻译（英译汉）
 5. `Hugging Face快速入门`：讲解了Hugging Face模型和数据集两个重要部分的使用方法
 6. `bert_classification_demo.ipynb`：Pytorch实战：基于BERT实现文本隐喻分类（Kaggle入门题目）
+7. `bert_pytorch_implement.ipynb`：BERT源码实现与解读(Pytorch)
 
 如有错误的地方，欢迎指出。
 
@@ -50,5 +51,13 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iioSnail/chaotic-transformer-tutorials/blob/master/bert_classification_demo.ipynb)
 
 使用Bert做一个简单的二分类问题。
+
+博客地址：https://blog.csdn.net/zhaohongfei_358/article/details/126426855
+
+# BERT源码实现与解读(Pytorch)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iioSnail/chaotic-transformer-tutorials/blob/master/bert_pytorch_implement.ipynb)
+
+使用nn.Transformer构建BERT模型，并使用样例样本使用MLM任务和NSP任务训练BERT
 
 博客地址：https://blog.csdn.net/zhaohongfei_358/article/details/126426855
